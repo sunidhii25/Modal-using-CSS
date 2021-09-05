@@ -1,0 +1,37 @@
+#box
+{
+    height:0px;
+    width:0px;
+   display:none;
+
+    
+}
+
+#box a 
+{
+    position:absolute;
+    left:15%;
+
+}
+
+
+#box:target
+{
+    height:250px;
+    width:250px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: block;
+    animation:anime 1s linear forwards;
+    
+}
+@keyframes anime {
+    from
+    {
+        margin-top: -250px;
+    } 
+    to
+    {
+          margin-top: 300px;
+    }
+}
